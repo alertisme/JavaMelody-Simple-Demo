@@ -1,0 +1,7 @@
+pipeline:
+  docker:
+    #registry: {https://github.com/alertisme/JavaMelody-Simple-Demo.git}
+    #auth: {eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZXh0IjoiYWxlcnRpc21lIiwidHlwZSI6InVzZXIifQ.pJGSfrt7IB0-PrVPNE5WkKvzC8S2J5NCeLMZZy65VlY}
+    image: plugins/docker
+    repo: alertisme/Mybatis-Spring
+    tags: latest
