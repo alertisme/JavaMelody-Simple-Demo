@@ -4,6 +4,27 @@ JavaMelody-Simple-Demo 是使用 JavaMelody 监控 Java web 做性能分析的�
  # 关于[JavaMelody](#https://github.com/javamelody/javamelody/wiki)  
  JavaMelody 是一个开源项目，他的目标是监控 测试 & 生产环境中的 Java 或 Java EE 应用程序。根据用户对应用程序的使用情况来衡量和计算应用程序实际操作统计信息的工具。
  
+ # 如何使用
+ 
+ - 一
+ ```XML
+         <dependency>
+             <groupId>net.bull.javamelody</groupId>
+             <artifactId>javamelody-core</artifactId>
+             <version>1.70.0</version>
+         </dependency>
+         <dependency>
+             <groupId>org.jrobin</groupId>
+             <artifactId>jrobin</artifactId>
+             <version>1.5.9</version>
+         </dependency>
+```
+ - 二
+ 
+ - 三
+ 
+ - 四
+ 
  ##  首页图表统计效果图
 ![首页图表统计](https://github.com/alertisme/JavaMelody-Simple-Demo/blob/master/src/main/webapp/static/imgs/main-chart.png "首页图表统计")
 ![首页图表统计](https://github.com/alertisme/JavaMelody-Simple-Demo/blob/master/src/main/webapp/static/imgs/main-chart2.png "首页图表统计")
