@@ -55,8 +55,9 @@ JavaMelody-Simple-Demo 是使用 JavaMelody 监控 Java web 做性能分析的�
 
 ```
  - 三 检查你的 Spring 配置文件里面是否配置了 AOP ，一般都会有的。
+ ```xml
      <aop:aspectj-autoproxy/>
-
+```
  
  ##  首页图表统计效果图
 ![首页图表统计](https://github.com/alertisme/JavaMelody-Simple-Demo/blob/master/src/main/webapp/static/imgs/main-chart.png "首页图表统计")
